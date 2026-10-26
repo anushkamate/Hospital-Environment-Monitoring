@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Secrets and local settings
+.streamlit/secrets.toml
+.env
+
+# Dataset and generated artifacts (check permissions before publishing)
+*.csv
+*.joblib
+*.pkl
+*.keras
+*.h5
+
+# Notebook/runtime files
+.ipynb_checkpoints/
+.DS_Store
